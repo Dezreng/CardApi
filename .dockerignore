@@ -1,0 +1,21 @@
+# These folders node_module  and  dist are not needed, because they will be creating on runtime of container
+/node_modules
+/dist
+
+# Tests are not necessary
+/test
+
+# Configuration files for development are not necessary also
+.eslintrc.js
+.prettierrc
+
+# It has no business logic required by production app
+README.md
+.gitignore
+.git
+
+# VSCode
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
